@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto - Cama Metodología IKEA</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Segoe UI',Arial;
+background:#f4f9ff;
+color:#333;
+}
+
+#header{
+background:linear-gradient(135deg,#10b981,#059669);
+color:white;
+padding:2.5rem;
+text-align:center;
+}
+
+.header-content{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:12px;
+}
+
+.logo{
+width:40px;
+}
+
+.main-container{
+max-width:1200px;
+margin:auto;
+padding:2rem;
+}
+
+.content{
+background:white;
+padding:2.5rem;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.etapa-header{
+background:#10b981;
+color:white;
+padding:1.3rem;
+border-radius:12px;
+margin:2rem 0;
+text-align:center;
+}
+
+.intro-box{
+background:#ecfdf5;
+padding:2rem;
+border-left:7px solid #10b981;
+border-radius:12px;
+margin-bottom:2rem;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:contain;
+margin:15px 0;
+border-radius:12px;
+cursor:pointer;
+}
+
+.multi-img{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:10px;
+}
+
+.multi-img img{
+height:120px;
+object-fit:cover;
+}
+
+.btn-download{
+display:inline-block;
+margin-top:10px;
+padding:8px 14px;
+background:#10b981;
+color:white;
+border-radius:6px;
+text-decoration:none;
+}
+
+.highlight-text{
+background:#ecfdf5;
+padding:1.5rem;
+border-left:7px solid #10b981;
+margin-top:2rem;
+}
+
+video{
+width:100%;
+border-radius:12px;
+margin-top:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header id="header">
+<div class="header-content">
+<img src="Producto_IKEA/LOGOIKEA.jpg" class="logo">
+<h1>🛏️ Proyecto: Cama Basada en Metodología IKEA</h1>
+</div>
+</header>
+
+<div class="main-container">
+<div class="content">
+
+<!-- INTRODUCCIÓN -->
+<div class="intro-box">
+<h2>📦 Introducción</h2>
+<p>
+Este proyecto consiste en el diseño de una cama aplicando la metodología IKEA, enfocada en crear productos funcionales, desmontables y fáciles de ensamblar por el usuario.
+Para sustentar la propuesta, se realizó un análisis de datos mediante un dashboard, identificando tendencias del mercado que evidencian la alta demanda de este tipo de muebles.
+</p>
+</div>
+
+<!-- INVESTIGACIÓN -->
+<div class="etapa-header">
+<h2>📚 Investigación</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Metodología IKEA</h3>
+<p>
+Diseño tipo flat-pack optimizado para transporte y ensamblaje por el usuario.
+</p>
+<img src="Producto_IKEA/METODOIKEA.webp">
+</div>
+
+<div class="card">
+<h3>Análisis de Datos</h3>
+<p>
+Se analizaron variables como precio, categoría y calificación para entender el comportamiento del mercado.
+</p>
+<img src="Producto_IKEA/analisisdatos.png">
+</div>
+
+<div class="card">
+<h3>Dashboard</h3>
+<p>
+Visualización en Power BI para validar la viabilidad del producto.
+</p>
+<img src="Producto_IKEA/Dashboard.png">
+</div>
+
+</div>
+
+<!-- ANÁLISIS -->
+<div class="etapa-header">
+<h2>📊 Análisis del Informe</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>📈 Tendencias</h3>
+<p>
+Alta demanda de camas y preferencia por diseños funcionales y atractivos.
+</p>
+<img src="Producto_IKEA/Tendencias.png">
+</div>
+
+<div class="card">
+<h3>💰 Precios</h3>
+<p>
+Amplio rango de precios manteniendo buena percepción del cliente.
+</p>
+<img src="Producto_IKEA/Precios.png">
+</div>
+
+<div class="card">
+<h3>🎯 Posicionamiento</h3>
+<p>
+Producto orientado al público infantil con diseño innovador.
+</p>
+<img src="Producto_IKEA/Posicionamiento.png">
+</div>
+
+<div class="card">
+<h3>⭐ Satisfacción</h3>
+<p>
+Altas calificaciones indican buena aceptación del mercado.
+</p>
+</div>
+
+</div>
+
+<!-- IDEACIÓN -->
+<div class="etapa-header">
+<h2>💡 Ideación</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Lluvia de Ideas</h3>
+<p>
+Exploración de múltiples conceptos de diseño.
+</p>
+<img src="Producto_IKEA/lluviaideas.jpg">
+</div>
+
+<div class="card">
+<h3>Cama Auto</h3>
+<p>
+Diseño seleccionado por su innovación y atractivo visual.
+</p>
+<img src="Producto_IKEA/camaauto.jpg">
+</div>
+
+</div>
+
+<!-- DISEÑO -->
+<div class="etapa-header">
+<h2>🛠️ Diseño y Fabricación</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Fusion 360</h3>
+<p>
+Modelado digital con encajes precisos y dimensiones reales.
+</p>
+
+<div class="multi-img">
+<img src="Producto_IKEA/modelofusion1.jpg">
+<img src="Producto_IKEA/modelofusion2.jpg">
+<img src="Producto_IKEA/modelofusion3.jpg">
+<img src="Producto_IKEA/modelofusion4.jpg">
+</div>
+</div>
+
+<div class="card">
+<h3>Corte Láser</h3>
+<p>
+Fabricación precisa optimizando material.
+</p>
+<img src="Producto_IKEA/cortelaser.png">
+</div>
+
+<div class="card">
+<h3>Ensamble</h3>
+<p>
+Encajes dentados sin tornillos para fácil armado.
+</p>
+
+<div class="multi-img">
+<img src="Producto_IKEA/ensamble.jpg">
+<img src="Producto_IKEA/ensamble2.jpg">
+<img src="Producto_IKEA/ensamble3.jpg">
+<img src="Producto_IKEA/ensamble4.jpg">
+<img src="Producto_IKEA/ensamble5.jpg">
+<img src="Producto_IKEA/ensamble6.jpg">
+<img src="Producto_IKEA/ensamble7.jpg">
+<img src="Producto_IKEA/ensamble8.jpg">
+</div>
+</div>
+
+<!-- VIDEO ENSAMBLE -->
+<div class="card">
+<h3>🎥 Video de Ensamble</h3>
+
+<p>
+Demostración visual del proceso de armado de la cama utilizando la metodología IKEA, mostrando la facilidad de ensamblaje y el sistema de encajes sin tornillos.
+</p>
+
+<video controls>
+<source src="Producto_IKEA/VIDEOENSAMBLE.mp4" type="video/mp4">
+Tu navegador no soporta videos HTML5.
+</video>
+
+</div>
+
+</div>
+
+<!-- EMPAQUE -->
+<div class="etapa-header">
+<h2>📦 Empaque</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Manual</h3>
+<p>
+Guía visual paso a paso para el usuario.
+</p>
+<img src="Producto_IKEA/manual.png">
+</div>
+
+<div class="card">
+<h3>Caja</h3>
+<p>
+Diseño ensamblable sin pegamento, fácil de transportar.
+</p>
+
+<div class="multi-img">
+<img src="Producto_IKEA/cajacama1.jpg">
+<img src="Producto_IKEA/cajacama2.jpg">
+<img src="Producto_IKEA/cajacama3.jpg">
+<img src="Producto_IKEA/cajacama4.jpg">
+</div>
+
+</div>
+
+</div>
+
+<!-- DESCARGABLES -->
+<div class="etapa-header">
+<h2>📂 Descargables</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<a href="descargables_IKEA/MANUAL DEL PRODUCTO.pdf" class="btn-download">
+Manual
+</a>
+</div>
+
+<div class="card">
+<a href="descargables_IKEA/LLUVIA DE IDEAS.pdf" class="btn-download">
+Ideas
+</a>
+</div>
+
+<div class="card">
+<a href="descargables_IKEA/camalista.f3d" class="btn-download">
+Fusion
+</a>
+</div>
+
+<div class="card">
+<a href="descargables_IKEA/Informe_IKEA.pdf" class="btn-download">
+Informe
+</a>
+</div>
+
+</div>
+
+<!-- CONCLUSIÓN -->
+<div class="highlight-text">
+<strong>Conclusión:</strong>
+El proyecto permitió integrar análisis de datos, diseño y fabricación bajo la metodología IKEA, logrando un producto funcional, innovador y alineado con las tendencias del mercado.
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
